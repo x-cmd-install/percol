@@ -1,90 +1,3 @@
-- repo: aur
-  srcname: percol
-  binname: percol
-  visiblename: percol
-  version: 0.2.1
-  origversion: 0.2.1-4
-  status: newest
-  summary: Adds flavor of interactive filtering to the traditional pipe concept of UNIX shell
-  maintainers:
-    - fallback-mnt-aur@repology
-  licenses:
-    - MIT
-- repo: aur
-  srcname: percol-git
-  binname: percol-git
-  visiblename: percol-git
-  version: "20190724.409"
-  origversion: 20190724.409-1
-  status: rolling
-  summary: percol adds flavor of interactive selection to the traditional pipe concept on UNIX
-  maintainers:
-    - fallback-mnt-aur@repology
-  licenses:
-    - MIT
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: percol
-  binnames:
-    - percol
-  visiblename: percol
-  version: 0.2.1
-  origversion: 0.2.1-3
-  status: newest
-  maintainers:
-    - anarcat@debian.org
-  categories:
-    - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: percol
-  binnames:
-    - percol
-  visiblename: percol
-  version: 0.2.1
-  origversion: 0.2.1-3
-  status: newest
-  maintainers:
-    - anarcat@debian.org
-  categories:
-    - misc
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: percol
-  binnames:
-    - percol
-  visiblename: percol
-  version: 0.2.1
-  origversion: 0.2.1-3
-  status: newest
-  maintainers:
-    - anarcat@debian.org
-  categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: percol
-  binnames:
-    - percol
-  visiblename: percol
-  version: 0.2.1
-  origversion: 0.2.1-3
-  status: newest
-  maintainers:
-    - anarcat@debian.org
-- repo: deepin_25
-  subrepo: community
-  srcname: percol
-  binnames:
-    - percol
-  visiblename: percol
-  version: 0.2.1
-  origversion: 0.2.1-3
-  status: newest
-  maintainers:
-    - anarcat@debian.org
-  categories:
-    - misc
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: percol
@@ -126,7 +39,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: percol
   binnames:
     - percol
@@ -139,7 +52,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: percol
   binnames:
     - percol
@@ -239,6 +152,82 @@
     - urchlay@slackware.uk
   categories:
     - system
+- repo: aur
+  srcname: percol
+  binname: percol
+  visiblename: percol
+  version: 0.2.1
+  origversion: 0.2.1-4
+  status: newest
+  summary: Adds flavor of interactive filtering to the traditional pipe concept of UNIX shell
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - MIT
+- repo: aur
+  srcname: percol-git
+  binname: percol-git
+  visiblename: percol-git
+  version: "20190724.409"
+  origversion: 20190724.409-1
+  status: rolling
+  summary: percol adds flavor of interactive selection to the traditional pipe concept on UNIX
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - MIT
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: percol
+  binnames:
+    - percol
+  visiblename: percol
+  version: 0.2.1
+  origversion: 0.2.1-3
+  status: newest
+  maintainers:
+    - anarcat@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: percol
+  binnames:
+    - percol
+  visiblename: percol
+  version: 0.2.1
+  origversion: 0.2.1-3
+  status: newest
+  maintainers:
+    - anarcat@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: percol
+  binnames:
+    - percol
+  visiblename: percol
+  version: 0.2.1
+  origversion: 0.2.1-3
+  status: newest
+  maintainers:
+    - anarcat@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: percol
+  binnames:
+    - percol
+  visiblename: percol
+  version: 0.2.1
+  origversion: 0.2.1-3
+  status: newest
+  maintainers:
+    - anarcat@debian.org
+  categories:
+    - misc
 - repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: percol
